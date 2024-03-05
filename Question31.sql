@@ -3,4 +3,4 @@ inner join orders on orders.customer_id=customers.customer_id
 inner join order_details on order_details.order_id=orders.order_id
 group by contact_name
 order by total_products_ordered desc
-limit 3;
+limit 3; 
