@@ -1,2 +1,2 @@
 select * from products
-where Discontinued=1
+where Discontinued=1  
