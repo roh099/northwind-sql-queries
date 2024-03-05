@@ -7,4 +7,4 @@ end as sales_category
 from order_details
 inner join products on order_details.product_id=products.product_id
 GROUP BY products.product_name
-order by products.product_name
+order by products.product_name 
