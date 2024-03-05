@@ -7,4 +7,3 @@ INNER JOIN
     categories ON products.category_id = categories.category_id
 WHERE 
     categories.category_name = 'Seafood';
---3
