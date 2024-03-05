@@ -3,4 +3,4 @@ from order_details
 inner join products on products.product_id=order_details.product_id
 group by order_id
 order by total_cost desc
-limit 1
+limit 1  
