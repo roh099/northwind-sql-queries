@@ -1,2 +1,2 @@
-select distinct ship_country
+select distinct ship_country 
 from orders
