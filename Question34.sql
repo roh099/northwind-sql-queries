@@ -1,6 +1,6 @@
 SELECT customer_id,COUNT(DISTINCT category_id) AS num_categories_ordered
 FROM 
-(SELECT orders.customer_id,products.category_id
+(SELECT orders.customer_id,products.category_id  
 FROM orders 
 INNER JOIN order_details ON orders.order_id = order_details.order_id
 INNER JOIN products ON order_details.product_id = products.product_id
