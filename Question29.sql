@@ -5,4 +5,4 @@ inner join products on order_details.product_id=products.product_id
 WHERE YEAR(order_date) = 2016
 GROUP BY MONTH(order_date)
 ORDER BY order_month DESC
-LIMIT 1;
+LIMIT 1;  
